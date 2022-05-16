@@ -4,18 +4,22 @@
         "btnLogin": { "xpath": "//a[contains(.,'Login')]" }
     },
     "loginScreen": {
+       
         "txtEmail": { "xpath": "//input[@name='email']" },
         "txtPassword": { "xpath": "//input[@name='password']" },
         "btnLogin": { "xpath": "//button[contains(.,'Log In')]" }
 
     },
+
+    
     "homeScreen": {
         "ifrHomeScreen": { "xpath": "//iframe[contains(@id,'PegaGadget')]" },
         "btnaddaproperty": { "xpath": "//*[text() ='+ Add a property']" },
+        "btnaddaproperty1": { "xpath": "/html/body/div[2]/form/div[3]/div[2]/section/div/div/div[1]/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div/div/div[3]/div/div/div[2]/div/div/div/div/div/div/div/div/span/a" },
         "btnAddPropertyNewCustomer": { "xpath": "//img[contains(@name,'AddNewProperty_D_MyPropertyList')]" }
     },
     "addPropertyScreen": {
-        "txtPropertyAddress": { "xpath": "//*[@id='RULE_KEY']//input[contains(@name,'FullAddress') and @type='text']" },
+        "txtPropertyAddress": { "xpath": "//input[@id='8ef90688' and @name='$PNewProperty$pPropertyDetails$pAddress$pFullAddress']" },
         "drpSaleType": { "name": "$PNewProperty$pPropertyDetails$pSaleType" },
         "drpContractofSale": { "name": "$PNewProperty$pAreContractsExchanged" },
         "btnGetStarted": { "xpath": "//button[contains(.,'Get Started')]" }
